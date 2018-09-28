@@ -1,0 +1,31 @@
+kind: Service
+apiVersion: v1
+metadata:
+  #Service name
+  name: jaeger-svc
+spec:
+  selector:
+    app: go-micro-services
+  ports:
+    - protocol: TCP
+      name: custom-tcp1
+      port: 14269
+      targetPort: 14269
+    - protocol: TCP
+      name: custom-tcp2
+      port: 5778
+      targetPort: 5778
+    - protocol: TCP
+      name: custom-tcp3
+      port: 14268
+      targetPort: 14268
+    - protocol: TCP
+      name: custom-tcp4
+      port: 14267
+      targetPort: 14267
+    - protocol: TCP
+      name: custom-tcp5
+      port: 16668
+      targetPort: 16686
+
+  type: LoadBalancer

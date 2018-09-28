@@ -1,0 +1,28 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: go-micro-services
+  name: jaeger
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: go-micro-services
+    spec:
+      containers:
+        - name: jaeger
+          image: jaegertracing/all-in-one:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5778
+              protocol: TCP
+            - containerPort: 16686
+              protocol: TCP
+            - containerPort: 5775
+              protocol: TCP
+            - containerPort: 14269
+              protocol: TCP
+            - containerPort: 14267
+              protocol: TCP

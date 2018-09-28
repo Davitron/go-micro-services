@@ -1,0 +1,23 @@
+kind: Service
+apiVersion: v1
+metadata:
+  #Service name
+  name: consul-svc
+spec:
+  selector:
+    app: go-micro-services
+  ports:
+    - protocol: TCP
+      name: custom-tcp1
+      port: 8300
+      targetPort: 8300
+    - protocol: TCP
+      name: custom-tcp2
+      port: 8400
+      targetPort: 8400
+    - protocol: TCP
+      name: custom-tcp3
+      port: 8500
+      targetPort: 8500
+
+  type: LoadBalancer
