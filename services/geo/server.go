@@ -9,6 +9,7 @@ import (
 	"github.com/davitron/go-micro-services/data"
 	pb "github.com/davitron/go-micro-services/services/geo/proto"
 	"github.com/grpc-ecosystem/grpc-opentracing/go/otgrpc"
+	geoindex "github.com/hailocab/go-geoindex"
 	opentracing "github.com/opentracing/opentracing-go"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

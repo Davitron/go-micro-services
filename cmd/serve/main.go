@@ -41,8 +41,8 @@ func main() {
 	switch strings.ToLower(os.Args[1]) {
 	case "all":
 		run = runAll
-	case "frontend":
-		run = runFrontend
+	// case "frontend":
+	// 	run = runFrontend
 	case "geo":
 		run = runGeo
 	case "profile":
