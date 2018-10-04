@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/harlow/go-micro-services/dialer"
-	"github.com/harlow/go-micro-services/registry"
-	geo "github.com/harlow/go-micro-services/services/geo/proto"
-	rate "github.com/harlow/go-micro-services/services/rate/proto"
-	"github.com/harlow/go-micro-services/services/search"
-	"github.com/harlow/go-micro-services/tracing"
+	"github.com/davitron/go-micro-services/dialer"
+	"github.com/davitron/go-micro-services/registry"
+	geo "github.com/davitron/go-micro-services/services/geo/proto"
+	rate "github.com/davitron/go-micro-services/services/rate/proto"
+	"github.com/davitron/go-micro-services/services/search"
+	"github.com/davitron/go-micro-services/tracing"
 )
 
 const searchSrvName = "srv-search"

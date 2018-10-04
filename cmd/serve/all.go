@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/harlow/go-micro-services/registry"
+	"github.com/davitron/go-micro-services/registry"
 )
 
 func runAll(port int, registry *registry.Client, jaegeraddr string) error {

@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/harlow/go-micro-services/dialer"
-	"github.com/harlow/go-micro-services/registry"
-	"github.com/harlow/go-micro-services/services/frontend"
-	profile "github.com/harlow/go-micro-services/services/profile/proto"
-	search "github.com/harlow/go-micro-services/services/search/proto"
-	"github.com/harlow/go-micro-services/tracing"
+	"github.com/davitron/go-micro-services/dialer"
+	"github.com/davitron/go-micro-services/registry"
+	"github.com/davitron/go-micro-services/services/frontend"
+	profile "github.com/davitron/go-micro-services/services/profile/proto"
+	search "github.com/davitron/go-micro-services/services/search/proto"
+	"github.com/davitron/go-micro-services/tracing"
 )
 
 func runFrontend(port int, consul *registry.Client, jaegeraddr string) error {

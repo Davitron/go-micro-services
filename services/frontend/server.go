@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	profile "github.com/harlow/go-micro-services/services/profile/proto"
-	search "github.com/harlow/go-micro-services/services/search/proto"
-	"github.com/harlow/go-micro-services/tracing"
+	profile "github.com/davitron/go-micro-services/services/profile/proto"
+	search "github.com/davitron/go-micro-services/services/search/proto"
+	"github.com/davitron/go-micro-services/tracing"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

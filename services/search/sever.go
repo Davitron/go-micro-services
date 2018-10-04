@@ -5,10 +5,10 @@ import (
 	"log"
 	"net"
 
+	geo "github.com/davitron/go-micro-services/services/geo/proto"
+	rate "github.com/davitron/go-micro-services/services/rate/proto"
+	pb "github.com/davitron/go-micro-services/services/search/proto"
 	"github.com/grpc-ecosystem/grpc-opentracing/go/otgrpc"
-	geo "github.com/harlow/go-micro-services/services/geo/proto"
-	rate "github.com/harlow/go-micro-services/services/rate/proto"
-	pb "github.com/harlow/go-micro-services/services/search/proto"
 	opentracing "github.com/opentracing/opentracing-go"
 	context "golang.org/x/net/context"
 	"google.golang.org/grpc"

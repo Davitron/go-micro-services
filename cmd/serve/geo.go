@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/harlow/go-micro-services/registry"
-	"github.com/harlow/go-micro-services/services/geo"
-	"github.com/harlow/go-micro-services/tracing"
+	"github.com/davitron/go-micro-services/registry"
+	"github.com/davitron/go-micro-services/services/geo"
+	"github.com/davitron/go-micro-services/tracing"
 )
 
 const geoSrvName = "srv-geo"

@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/harlow/go-micro-services/registry"
+	"github.com/davitron/go-micro-services/registry"
 )
 
 func usage() {

@@ -6,9 +6,9 @@ import (
 	"log"
 	"net"
 
+	"github.com/davitron/go-micro-services/data"
+	pb "github.com/davitron/go-micro-services/services/rate/proto"
 	"github.com/grpc-ecosystem/grpc-opentracing/go/otgrpc"
-	"github.com/harlow/go-micro-services/data"
-	pb "github.com/harlow/go-micro-services/services/rate/proto"
 	opentracing "github.com/opentracing/opentracing-go"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

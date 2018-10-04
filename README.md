@@ -146,7 +146,7 @@ Thanks to all the [contributors][6]. This codebase was heavily inspired by the f
 [3]: https://speakerdeck.com/mattheath/scaling-microservices-in-go-high-load-strategy-2015
 [4]: https://github.com/grpc/grpc-go/tree/master/examples/route_guide
 [5]: https://github.com/go-kit/kit
-[6]: https://github.com/harlow/go-micro-services/graphs/contributors
+[6]: https://github.com/davitron/go-micro-services/graphs/contributors
 
 <img width="50" height="50" src="https://s3.amazonaws.com/tracking.events/hw-logo.png">
 
